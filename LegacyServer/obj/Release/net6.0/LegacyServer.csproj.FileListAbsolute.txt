@@ -1,0 +1,14 @@
+F:\Programming\LegacyServer\bin\Release\net6.0\LegacyServer.exe
+F:\Programming\LegacyServer\bin\Release\net6.0\LegacyServer.deps.json
+F:\Programming\LegacyServer\bin\Release\net6.0\LegacyServer.runtimeconfig.json
+F:\Programming\LegacyServer\bin\Release\net6.0\LegacyServer.dll
+F:\Programming\LegacyServer\bin\Release\net6.0\LegacyServer.pdb
+F:\Programming\LegacyServer\obj\Release\net6.0\LegacyServer.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming\LegacyServer\obj\Release\net6.0\LegacyServer.AssemblyInfoInputs.cache
+F:\Programming\LegacyServer\obj\Release\net6.0\LegacyServer.AssemblyInfo.cs
+F:\Programming\LegacyServer\obj\Release\net6.0\LegacyServer.csproj.CoreCompileInputs.cache
+F:\Programming\LegacyServer\obj\Release\net6.0\LegacyServer.dll
+F:\Programming\LegacyServer\obj\Release\net6.0\refint\LegacyServer.dll
+F:\Programming\LegacyServer\obj\Release\net6.0\LegacyServer.pdb
+F:\Programming\LegacyServer\obj\Release\net6.0\LegacyServer.genruntimeconfig.cache
+F:\Programming\LegacyServer\obj\Release\net6.0\ref\LegacyServer.dll
