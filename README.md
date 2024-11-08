@@ -1,1 +1,1 @@
-A UDP game server for my upcoming game fully written in C#. This is made for my game but can realistically be edited to work on any game that uses a proprietary game engine. The reason behind the use of strings is because the engine that the game is written in does not support enums (lol). I will continue updating this in the future
+A UDP game server for Minecraft alpha 1.0.1_01 fully written in C#. requires a custom client to function 
