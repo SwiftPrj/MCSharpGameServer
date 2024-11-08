@@ -55,11 +55,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\LegacyGameServer-main\\LegacyServer\\LegacyServer.csproj",
+      "projectUniqueName": "C:\\Users\\gamer\\Documents\\GitHub\\MCSharpGameServer\\LegacyServer\\LegacyServer.csproj",
       "projectName": "LegacyServer",
-      "projectPath": "D:\\Programming\\LegacyGameServer-main\\LegacyServer\\LegacyServer.csproj",
+      "projectPath": "C:\\Users\\gamer\\Documents\\GitHub\\MCSharpGameServer\\LegacyServer\\LegacyServer.csproj",
       "packagesPath": "C:\\Users\\gamer\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\LegacyGameServer-main\\LegacyServer\\obj\\",
+      "outputPath": "C:\\Users\\gamer\\Documents\\GitHub\\MCSharpGameServer\\LegacyServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

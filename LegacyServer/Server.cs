@@ -56,11 +56,11 @@ namespace LegacyServer
                 IPEndPoint client = new IPEndPoint(IPAddress.Parse(FileUtils.GetIP()), 0);
                 Byte[] receivedBytes = c.EndReceive(ar, ref client);
                 string data = Encoding.ASCII.GetString(receivedBytes);
-/*
+
                 if (!data.Contains("C03PacketPlayerUpdate"))
                 {
                     Logger.Info(("[+] " + client + ": " + data + Environment.NewLine).Trim());
-                }*/
+                }
 
                 await server.HandleData(data, c, client);
 

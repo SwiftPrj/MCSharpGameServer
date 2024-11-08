@@ -27,8 +27,20 @@ namespace LegacyServer.Packets
                         if (p.GetEndPoint().Address.ToString() == packet.GetIPEndPoint().Address.ToString())
                         {
                             Logger.Warn("same client tried to connect to server");
-                            return;
+                            //return;
                         }
+                    }
+                    if (packet.GetData().First().Value != "Ping!")
+                    {
+                        Logger.Warn("client attempted to connect without handshake?");
+                        return;
+                    } else
+                    {
+                        Dictionary<PacketType, string> handshakekeys = new Dictionary<PacketType, string>();
+                        handshakekeys.Add(PacketType.S06PacketStatusUpdate, "Pong!");
+                        Packet handshake = new Packet(PacketType.S06PacketStatusUpdate, handshakekeys, packet.GetUdpClient(), packet.GetIPEndPoint());
+                        SendPacketIndividual(handshake);
+                        DisposePacket(handshake);
                     }
                     List<Object> info = new List<Object>();
                     Logger.Info("client connected");
